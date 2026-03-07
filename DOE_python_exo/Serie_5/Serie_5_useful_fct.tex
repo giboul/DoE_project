@@ -1,0 +1,256 @@
+\documentclass[a4paper,11pt,final]{article}
+        \usepackage{fancyvrb, color, graphicx, hyperref, amsmath, url, textcomp}
+        \usepackage{palatino}
+        \usepackage[a4paper,text={16.5cm,25.2cm},centering]{geometry}
+
+        %Set different options for xetex and luatex
+        \usepackage{iftex}
+        \ifxetex\usepackage{fontspec}\fi
+
+        \ifluatex\usepackage{fontspec}\fi
+
+        \usepackage{xcolor}
+        % ANSI colors from nbconvert
+        \definecolor{ansi-black}{HTML}{3E424D}
+        \definecolor{ansi-black-intense}{HTML}{282C36}
+        \definecolor{ansi-red}{HTML}{E75C58}
+        \definecolor{ansi-red-intense}{HTML}{B22B31}
+        \definecolor{ansi-green}{HTML}{00A250}
+        \definecolor{ansi-green-intense}{HTML}{007427}
+        \definecolor{ansi-yellow}{HTML}{DDB62B}
+        \definecolor{ansi-yellow-intense}{HTML}{B27D12}
+        \definecolor{ansi-blue}{HTML}{208FFB}
+        \definecolor{ansi-blue-intense}{HTML}{0065CA}
+        \definecolor{ansi-magenta}{HTML}{D160C4}
+        \definecolor{ansi-magenta-intense}{HTML}{A03196}
+        \definecolor{ansi-cyan}{HTML}{60C6C8}
+        \definecolor{ansi-cyan-intense}{HTML}{258F8F}
+        \definecolor{ansi-white}{HTML}{C5C1B4}
+         \definecolor{ansi-white-intense}{HTML}{A1A6B2}
+
+        \hypersetup
+        {   pdfauthor = {Pweave},
+            pdftitle={Published from Serie_5_useful_fct.py},
+            colorlinks=TRUE,
+            linkcolor=black,
+            citecolor=blue,
+            urlcolor=blue
+        }
+        \setlength{\parindent}{0pt}
+        \setlength{\parskip}{1.2ex}
+        % fix for pandoc 1.14
+        \providecommand{\tightlist}{%
+            \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+        
+\makeatletter
+\def\PY@reset{\let\PY@it=\relax \let\PY@bf=\relax%
+    \let\PY@ul=\relax \let\PY@tc=\relax%
+    \let\PY@bc=\relax \let\PY@ff=\relax}
+\def\PY@tok#1{\csname PY@tok@#1\endcsname}
+\def\PY@toks#1+{\ifx\relax#1\empty\else%
+    \PY@tok{#1}\expandafter\PY@toks\fi}
+\def\PY@do#1{\PY@bc{\PY@tc{\PY@ul{%
+    \PY@it{\PY@bf{\PY@ff{#1}}}}}}}
+\def\PY#1#2{\PY@reset\PY@toks#1+\relax+\PY@do{#2}}
+
+\@namedef{PY@tok@w}{\def\PY@tc##1{\textcolor[rgb]{0.73,0.73,0.73}{##1}}}
+\@namedef{PY@tok@c}{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\@namedef{PY@tok@cp}{\def\PY@tc##1{\textcolor[rgb]{0.74,0.48,0.00}{##1}}}
+\@namedef{PY@tok@k}{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\@namedef{PY@tok@kp}{\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\@namedef{PY@tok@kt}{\def\PY@tc##1{\textcolor[rgb]{0.69,0.00,0.25}{##1}}}
+\@namedef{PY@tok@o}{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\@namedef{PY@tok@ow}{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.67,0.13,1.00}{##1}}}
+\@namedef{PY@tok@nb}{\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\@namedef{PY@tok@nf}{\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,1.00}{##1}}}
+\@namedef{PY@tok@nc}{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,1.00}{##1}}}
+\@namedef{PY@tok@nn}{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,1.00}{##1}}}
+\@namedef{PY@tok@ne}{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.82,0.25,0.23}{##1}}}
+\@namedef{PY@tok@nv}{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\@namedef{PY@tok@no}{\def\PY@tc##1{\textcolor[rgb]{0.53,0.00,0.00}{##1}}}
+\@namedef{PY@tok@nl}{\def\PY@tc##1{\textcolor[rgb]{0.63,0.63,0.00}{##1}}}
+\@namedef{PY@tok@ni}{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.60,0.60,0.60}{##1}}}
+\@namedef{PY@tok@na}{\def\PY@tc##1{\textcolor[rgb]{0.49,0.56,0.16}{##1}}}
+\@namedef{PY@tok@nt}{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\@namedef{PY@tok@nd}{\def\PY@tc##1{\textcolor[rgb]{0.67,0.13,1.00}{##1}}}
+\@namedef{PY@tok@s}{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\@namedef{PY@tok@sd}{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\@namedef{PY@tok@si}{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.73,0.40,0.53}{##1}}}
+\@namedef{PY@tok@se}{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.73,0.40,0.13}{##1}}}
+\@namedef{PY@tok@sr}{\def\PY@tc##1{\textcolor[rgb]{0.73,0.40,0.53}{##1}}}
+\@namedef{PY@tok@ss}{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\@namedef{PY@tok@sx}{\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\@namedef{PY@tok@m}{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\@namedef{PY@tok@gh}{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,0.50}{##1}}}
+\@namedef{PY@tok@gu}{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.50,0.00,0.50}{##1}}}
+\@namedef{PY@tok@gd}{\def\PY@tc##1{\textcolor[rgb]{0.63,0.00,0.00}{##1}}}
+\@namedef{PY@tok@gi}{\def\PY@tc##1{\textcolor[rgb]{0.00,0.63,0.00}{##1}}}
+\@namedef{PY@tok@gr}{\def\PY@tc##1{\textcolor[rgb]{1.00,0.00,0.00}{##1}}}
+\@namedef{PY@tok@ge}{\let\PY@it=\textit}
+\@namedef{PY@tok@gs}{\let\PY@bf=\textbf}
+\@namedef{PY@tok@gp}{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,0.50}{##1}}}
+\@namedef{PY@tok@go}{\def\PY@tc##1{\textcolor[rgb]{0.53,0.53,0.53}{##1}}}
+\@namedef{PY@tok@gt}{\def\PY@tc##1{\textcolor[rgb]{0.00,0.27,0.87}{##1}}}
+\@namedef{PY@tok@err}{\def\PY@bc##1{{\setlength{\fboxsep}{\string -\fboxrule}\fcolorbox[rgb]{1.00,0.00,0.00}{1,1,1}{\strut ##1}}}}
+\@namedef{PY@tok@kc}{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\@namedef{PY@tok@kd}{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\@namedef{PY@tok@kn}{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\@namedef{PY@tok@kr}{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\@namedef{PY@tok@bp}{\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\@namedef{PY@tok@fm}{\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,1.00}{##1}}}
+\@namedef{PY@tok@vc}{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\@namedef{PY@tok@vg}{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\@namedef{PY@tok@vi}{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\@namedef{PY@tok@vm}{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\@namedef{PY@tok@sa}{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\@namedef{PY@tok@sb}{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\@namedef{PY@tok@sc}{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\@namedef{PY@tok@dl}{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\@namedef{PY@tok@s2}{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\@namedef{PY@tok@sh}{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\@namedef{PY@tok@s1}{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\@namedef{PY@tok@mb}{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\@namedef{PY@tok@mf}{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\@namedef{PY@tok@mh}{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\@namedef{PY@tok@mi}{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\@namedef{PY@tok@il}{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\@namedef{PY@tok@mo}{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\@namedef{PY@tok@ch}{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\@namedef{PY@tok@cm}{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\@namedef{PY@tok@cpf}{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\@namedef{PY@tok@c1}{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\@namedef{PY@tok@cs}{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+
+\def\PYZbs{\char`\\}
+\def\PYZus{\char`\_}
+\def\PYZob{\char`\{}
+\def\PYZcb{\char`\}}
+\def\PYZca{\char`\^}
+\def\PYZam{\char`\&}
+\def\PYZlt{\char`\<}
+\def\PYZgt{\char`\>}
+\def\PYZsh{\char`\#}
+\def\PYZpc{\char`\%}
+\def\PYZdl{\char`\$}
+\def\PYZhy{\char`\-}
+\def\PYZsq{\char`\'}
+\def\PYZdq{\char`\"}
+\def\PYZti{\char`\~}
+% for compatibility with earlier versions
+\def\PYZat{@}
+\def\PYZlb{[}
+\def\PYZrb{]}
+\makeatother
+
+        
+\begin{document}
+
+\begin{Verbatim}[commandchars=\\\{\},frame=single,fontsize=\small, xleftmargin=0.5em]
+\PY{k+kn}{import} \PY{n+nn}{pandas} \PY{c+c1}{\PYZsh{}for dataframe}
+\PY{k+kn}{from} \PY{n+nn}{math} \PY{k+kn}{import} \PY{n}{pi}
+\PY{k+kn}{import} \PY{n+nn}{math} \PY{c+c1}{\PYZsh{}always useful}
+\PY{k+kn}{import} \PY{n+nn}{numpy} \PY{k}{as} \PY{n+nn}{np} \PY{c+c1}{\PYZsh{}always useful (linear algebra expecially)}
+\PY{k+kn}{import} \PY{n+nn}{scipy} \PY{c+c1}{\PYZsh{}for various mathematical function you may want}
+\PY{k+kn}{import} \PY{n+nn}{statsmodels}\PY{n+nn}{.}\PY{n+nn}{api} \PY{k}{as} \PY{n+nn}{sm} \PY{c+c1}{\PYZsh{}The most complete python pluggin }
+\PY{c+c1}{\PYZsh{}                             for statistical modeling in my sense}
+\PY{k+kn}{from} \PY{n+nn}{statsmodels}\PY{n+nn}{.}\PY{n+nn}{formula}\PY{n+nn}{.}\PY{n+nn}{api} \PY{k+kn}{import} \PY{n}{ols} \PY{c+c1}{\PYZsh{}For ordinary least square }
+\PY{c+c1}{\PYZsh{}                                       \PYZdq{}ols\PYZdq{} not the same as above }
+\PY{n}{anova\PYZus{}lm} \PY{o}{=} \PY{n}{sm}\PY{o}{.}\PY{n}{stats}\PY{o}{.}\PY{n}{anova\PYZus{}lm} \PY{c+c1}{\PYZsh{}The anova function from statsmodels}
+
+\PY{c+c1}{\PYZsh{} Documentation}
+\PY{c+c1}{\PYZsh{} https://www.statsmodels.org/devel/regression.html}
+\PY{c+c1}{\PYZsh{} https://www.statsmodels.org/devel/anova.html}
+\PY{c+c1}{\PYZsh{} https://www.statsmodels.org/devel/examples/notebooks/generated/interactions\PYZus{}anova.html}
+
+
+
+\PY{c+c1}{\PYZsh{}e.g. quadratic model }
+
+\PY{n}{c1}\PY{o}{=}\PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{H     }\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}    \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{t\PYZhy{}C4H9    }\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}    \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{i\PYZhy{}C3H7    }\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}    \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{C2H5      }\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}
+    \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{CH3       }\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}    \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{CH2OH     }\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}    \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{C6H5      }\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}    \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{CH=CH2    }\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}
+    \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{NH2       }\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}    \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{NHCH3     }\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}    \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{N(CH3)2   }\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}    \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{OH        }\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}
+    \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{CO2C2H5   }\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}   \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{OCH3      }\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}    \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Br        }\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}    \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Cl        }\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} 
+    \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{F         }\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}    \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{CN        }\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}    \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{NO2}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}
+\PY{n}{c2}\PY{o}{=}\PY{p}{[}\PY{l+m+mi}{0}    \PY{p}{,}    \PY{l+m+mi}{0}    \PY{p}{,}    \PY{l+m+mi}{0}    \PY{p}{,}    \PY{l+m+mi}{0}    \PY{p}{,}    \PY{l+m+mi}{0}    \PY{p}{,}    \PY{l+m+mf}{0.14} \PY{p}{,}    \PY{l+m+mf}{0.1}  \PY{p}{,}
+    \PY{l+m+mf}{0.06} \PY{p}{,}    \PY{l+m+mf}{0.14} \PY{p}{,}    \PY{l+m+mf}{0.12} \PY{p}{,}    \PY{l+m+mf}{0.1}  \PY{p}{,}    \PY{l+m+mf}{0.3}  \PY{p}{,}    \PY{l+m+mf}{0.31} \PY{p}{,}    \PY{l+m+mf}{0.28} \PY{p}{,}
+    \PY{l+m+mf}{0.45} \PY{p}{,}    \PY{l+m+mf}{0.45} \PY{p}{,}    \PY{l+m+mf}{0.44} \PY{p}{,}    \PY{l+m+mf}{0.6}  \PY{p}{,}    \PY{l+m+mf}{0.65}\PY{p}{]}
+\PY{n}{c3}\PY{o}{=}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{,}\PY{o}{\PYZhy{}}\PY{l+m+mf}{0.07}\PY{p}{,}\PY{o}{\PYZhy{}}\PY{l+m+mf}{0.07}\PY{p}{,}\PY{o}{\PYZhy{}}\PY{l+m+mf}{0.07}\PY{p}{,}\PY{o}{\PYZhy{}}\PY{l+m+mf}{0.08}\PY{p}{,}\PY{o}{\PYZhy{}}\PY{l+m+mf}{0.06}\PY{p}{,}\PY{o}{\PYZhy{}}\PY{l+m+mf}{0.22}\PY{p}{,}\PY{o}{\PYZhy{}}\PY{l+m+mf}{0.15}\PY{p}{,}\PY{o}{\PYZhy{}}\PY{l+m+mf}{0.52}\PY{p}{,}\PY{o}{\PYZhy{}}\PY{l+m+mf}{0.58}\PY{p}{,}\PY{o}{\PYZhy{}}\PY{l+m+mf}{0.64}\PY{p}{,}\PY{o}{\PYZhy{}}\PY{l+m+mf}{0.38}\PY{p}{,}
+    \PY{l+m+mi}{0}    \PY{p}{,}\PY{o}{\PYZhy{}}\PY{l+m+mf}{0.42}\PY{p}{,}\PY{o}{\PYZhy{}}\PY{l+m+mf}{0.15}\PY{p}{,}\PY{o}{\PYZhy{}}\PY{l+m+mf}{0.17}\PY{p}{,}\PY{o}{\PYZhy{}}\PY{l+m+mf}{0.25}\PY{p}{,}\PY{l+m+mi}{0}    \PY{p}{,}\PY{l+m+mi}{0}\PY{p}{]}
+\PY{n}{c4}\PY{o}{=}\PY{p}{[}\PY{l+m+mi}{4390}\PY{p}{,}\PY{l+m+mi}{4180}\PY{p}{,}\PY{l+m+mi}{4060}\PY{p}{,}\PY{l+m+mi}{3950}\PY{p}{,}\PY{l+m+mi}{3850}\PY{p}{,}\PY{l+m+mi}{3510}\PY{p}{,}\PY{l+m+mi}{3350}\PY{p}{,}\PY{l+m+mi}{3260}\PY{p}{,}\PY{l+m+mi}{2600}\PY{p}{,}\PY{l+m+mi}{2520}\PY{p}{,}\PY{l+m+mi}{2250}\PY{p}{,}\PY{l+m+mi}{2110}\PY{p}{,}\PY{l+m+mi}{2020}\PY{p}{,}
+    \PY{l+m+mi}{1700}\PY{p}{,}\PY{l+m+mi}{1290}\PY{p}{,}\PY{l+m+mi}{1230}\PY{p}{,}\PY{l+m+mi}{1060}\PY{p}{,}\PY{l+m+mi}{1000}\PY{p}{,}\PY{l+m+mi}{660}\PY{p}{]}
+
+\PY{n}{df} \PY{o}{=} \PY{n}{pandas}\PY{o}{.}\PY{n}{DataFrame}\PY{p}{(}\PY{n}{data}\PY{o}{=}\PY{p}{\PYZob{}}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Amines}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:} \PY{n}{np}\PY{o}{.}\PY{n}{asarray}\PY{p}{(}\PY{n}{c1}\PY{p}{)}\PY{p}{,}
+     \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{SigmaF}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:} \PY{n}{np}\PY{o}{.}\PY{n}{asarray}\PY{p}{(}\PY{n}{c2}\PY{p}{)}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{SigmaR}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:} \PY{n}{np}\PY{o}{.}\PY{n}{asarray}\PY{p}{(}\PY{n}{c3}\PY{p}{)}\PY{p}{,}
+     \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{K}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:} \PY{n}{np}\PY{o}{.}\PY{n}{asarray}\PY{p}{(}\PY{n}{c4}\PY{p}{)}\PY{p}{\PYZcb{}}\PY{p}{,}\PY{p}{)}
+
+\PY{n}{mod\PYZus{}quad} \PY{o}{=} \PY{n}{ols}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{K \PYZti{} SigmaF*SigmaR + np.square(SigmaF) + np.square(SigmaR)}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{data}\PY{o}{=}\PY{n}{df}\PY{p}{)}
+\PY{n}{res\PYZus{}quad}\PY{o}{=}\PY{n}{mod\PYZus{}quad}\PY{o}{.}\PY{n}{fit}\PY{p}{(}\PY{p}{)}\PY{c+c1}{\PYZsh{} fitting of the model}
+\PY{n+nb}{print}\PY{p}{(}\PY{n}{res\PYZus{}quad}\PY{o}{.}\PY{n}{summary}\PY{p}{(}\PY{p}{)}\PY{p}{)} \PY{c+c1}{\PYZsh{}returns the fitted model with : estimates, SE, }
+                         \PY{c+c1}{\PYZsh{} t\PYZhy{}value, p\PYZhy{}value, confidence interval, and}
+                         \PY{c+c1}{\PYZsh{} various other statistical test and information}
+\PY{n}{table\PYZus{}quad} \PY{o}{=} \PY{n}{anova\PYZus{}lm}\PY{p}{(}\PY{n}{res\PYZus{}quad}\PY{p}{,} \PY{n}{typ}\PY{o}{=}\PY{l+m+mi}{2}\PY{p}{)} \PY{c+c1}{\PYZsh{}type II anova}
+\PY{n+nb}{print}\PY{p}{(}\PY{n}{table\PYZus{}quad}\PY{p}{)}
+\end{Verbatim}
+
+\begin{Verbatim}[commandchars=\\\{\},frame=leftline,fontsize=\small, xleftmargin=0.5em]
+                            OLS Regression Results
+==============================================================================
+Dep. Variable:                      K   R-squared:
+0.975
+Model:                            OLS   Adj. R-squared:
+0.965
+Method:                 Least Squares   F-statistic:
+101.5
+Date:                Tue, 29 Mar 2022   Prob (F-statistic):
+6.03e-10
+Time:                        17:25:12   Log-Likelihood:
+-126.44
+No. Observations:                  19   AIC:
+264.9
+Df Residuals:                      13   BIC:
+270.5
+Df Model:                           5
+Covariance Type:            nonrobust
+=====================================================================================
+                        coef    std err          t      P>|t|
+[0.025      0.975]
+-------------------------------------------------------------------------------------
+Intercept          4194.9873    158.573     26.455      0.000
+3852.411    4537.564
+SigmaF            -6972.1093   1330.464     -5.240      0.000
+-9846.401   -4097.817
+SigmaR             1633.6887   1897.863      0.861      0.405
+-2466.395    5733.772
+SigmaF:SigmaR      -979.7089   3568.503     -0.275      0.788
+-8688.991    6729.573
+np.square(SigmaF)  2324.3059   2085.024      1.115      0.285
+-2180.115    6828.727
+np.square(SigmaR)  -203.0594   2426.333     -0.084      0.935
+-5444.834    5038.715
+==============================================================================
+Omnibus:                        1.997   Durbin-Watson:
+2.494
+Prob(Omnibus):                  0.368   Jarque-Bera (JB):
+1.132
+Skew:                           0.244   Prob(JB):
+0.568
+Kurtosis:                       1.908   Cond. No.
+90.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is
+correctly specified.
+                         sum_sq    df          F    PR(>F)
+SigmaF             1.895683e+06   1.0  36.750588  0.000040
+SigmaR             5.663795e+04   1.0   1.098010  0.313795
+SigmaF:SigmaR      3.887974e+03   1.0   0.075374  0.787982
+np.square(SigmaF)  6.410112e+04   1.0   1.242694  0.285137
+np.square(SigmaR)  3.612824e+02   1.0   0.007004  0.934578
+Residual           6.705709e+05  13.0        NaN       NaN
+/home/thethemas/.local/lib/python3.9/site-
+packages/scipy/stats/stats.py:1541: UserWarning: kurtosistest only
+valid for n>=20 ... continuing anyway, n=19
+  warnings.warn("kurtosistest only valid for n>=20 ... continuing "
+\end{Verbatim}
+\end{document}

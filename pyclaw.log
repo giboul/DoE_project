@@ -1,0 +1,5 @@
+2026-03-07 14:26:57,854 pyclaw.fileio INFO CLAW: 366 - Read in solution for time t=0.0
+2026-03-07 14:26:59,503 root ERROR CLAW: 142 - Number of labels -2147483647 is invalid
+2026-03-07 14:26:59,504 root ERROR CLAW: 142 - Number of labels -2147483647 is invalid
+2026-03-07 14:26:59,504 root ERROR CLAW: 142 - Number of labels -2147483647 is invalid
+2026-03-07 14:26:59,504 root ERROR CLAW: 142 - Number of labels -2147483647 is invalid
