@@ -14,10 +14,10 @@ Recent small-scale experiments have studied the effects of the avalanche's chara
 Previously, the only method available to estimate the height of an impulse wave was an empirical relation ([large and laboratory scale experiments](https://www.youtube.com/watch?v=QHvx1SKdqcw)), derived from dimensional analysis and focused on heavy flows such as landslides and debris flows [@heller].
 This relation has led to unrealistic predictions in engineering.
 
-> ![Alt text](media/snapshot_1.png)
-> ![Alt text](media/snapshot_2.png)
-> ![Alt text](media/snapshot_3.png){#Trift}
-> **Simulation results of an impulse wave at Trift showing the free-surface elevation variation at times $t=0~\mathrm{s}$, $t=17~\mathrm{s}$ and $t=1~\mathrm{min}~20~\mathrm{s}$.**
+> ![Alt text](media/s1.png)
+> ![Alt text](media/s2.png)
+> ![Alt text](media/s3.png){#simulation}
+> **Numerical simulation of an impulse wave showing the free-surface elevation variation at times $t=1.1~\mathrm{s}$, $t=2.2~\mathrm{s}$ and $t=7.8~\mathrm{s}$.**
 
 Given this failure, an alternate method was proposed to estimate the height of impulse waves, in the particular case of snow avalanches [@giboul].
 It assumes a sudden transformation of the snow into water, a supercritical flow (where advection is faster than diffusion) and relies on a numerical solver to account for a complex topography. This differs from the scaled experiments in the sense that they could only test basic topographies.
