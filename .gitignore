@@ -1,6 +1,6 @@
 numerical_simulation
 venv
-__pycache__
+_*
 *.zip
 */
 Makefile
