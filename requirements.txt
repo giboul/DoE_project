@@ -6,3 +6,4 @@ seaborn
 statsmodels
 ipykernel
 ipywidgets
+jinja2
