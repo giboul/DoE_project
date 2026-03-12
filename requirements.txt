@@ -1,7 +1,8 @@
 pyyaml
-pandas
 openpyxl
+pandas
 formulaic
 seaborn
+statsmodels
 ipykernel
 ipywidgets

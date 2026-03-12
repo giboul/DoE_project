@@ -1,5 +1,0 @@
-2026-03-11 13:39:03,331 pyclaw.fileio INFO CLAW: 366 - Read in solution for time t=0.0
-2026-03-11 13:39:04,716 pyclaw.fileio INFO CLAW: 366 - Read in solution for time t=0.55882353
-2026-03-11 13:39:05,370 pyclaw.fileio INFO CLAW: 366 - Read in solution for time t=1.1176471
-2026-03-11 13:39:12,110 pyclaw.fileio INFO CLAW: 366 - Read in solution for time t=1.6764706
-2026-03-11 13:39:12,818 pyclaw.fileio INFO CLAW: 366 - Read in solution for time t=2.2352941
