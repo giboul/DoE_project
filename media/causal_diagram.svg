@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="81mm"
+   height="147mm"
+   viewBox="0 0 81 147"
+   version="1.1"
+   id="svg570"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="causal_diagram.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview572"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="2.3786088"
+     inkscape:cx="158.49601"
+     inkscape:cy="465.18789"
+     inkscape:window-width="1134"
+     inkscape:window-height="1851"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs567">
+    <marker
+       style="overflow:visible"
+       id="marker2644"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Arrow2"
+       markerWidth="7.6999998"
+       markerHeight="5.5999999"
+       viewBox="0 0 7.7 5.6"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path2642" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker2580"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Arrow2"
+       markerWidth="7.6999998"
+       markerHeight="5.5999999"
+       viewBox="0 0 7.7 5.6"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path2578" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Arrow2"
+       markerWidth="7.6999998"
+       markerHeight="5.5999999"
+       viewBox="0 0 7.7 5.6"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="arrow2L" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2-8"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Arrow2"
+       markerWidth="7.6999998"
+       markerHeight="5.5999999"
+       viewBox="0 0 7.7 5.6"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="arrow2L-8" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2-8-3"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Arrow2"
+       markerWidth="7.6999998"
+       markerHeight="5.5999999"
+       viewBox="0 0 7.7 5.6"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="arrow2L-8-1" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2-4"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Arrow2"
+       markerWidth="7.6999998"
+       markerHeight="5.5999999"
+       viewBox="0 0 7.7 5.6"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="arrow2L-9" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2-8-3-6"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Arrow2"
+       markerWidth="7.6999998"
+       markerHeight="5.5999999"
+       viewBox="0 0 7.7 5.6"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="arrow2L-8-1-8" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2-8-3-9"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Arrow2"
+       markerWidth="7.6999998"
+       markerHeight="5.5999999"
+       viewBox="0 0 7.7 5.6"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="arrow2L-8-1-3" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:none;fill-opacity:1;stroke:#40bfaa;stroke-width:0.499999;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker2644)"
+       d="m 35.902324,107.36977 12.485544,26.97141"
+       id="path2574" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#40bfaa;stroke-width:0.499999;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker2580)"
+       d="M 62.727197,107.36976 48.387868,134.34118"
+       id="path2576" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.25;stroke-linecap:round;stroke-dasharray:0.75, 0.75;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 30.149145,11.653197 43.699483,36.716381"
+       id="path1971"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.499999;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 20.025162,38.697582 23.67852,20.306689"
+       id="path2042"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.499999;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 59.411588,11.936827 43.699483,36.716381"
+       id="path2044"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.499999;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 43.699483,36.716381 0.0042,22.287889"
+       id="path2046"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.499999;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 69.661592,38.697582 43.703682,59.004271"
+       id="path2046-8"
+       sodipodi:nodetypes="cc" />
+    <g
+       id="g1878"
+       transform="translate(-67.856159,-0.29215017)">
+      <circle
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.499999;stroke-linecap:round"
+         id="path743-3-6-7-1"
+         cx="138.57608"
+         cy="38.989731"
+         r="10" />
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Linux Libertine O';-inkscape-font-specification:'Linux Libertine O, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:round"
+         x="138.29561"
+         y="40.441765"
+         id="text907-5"><tspan
+           sodipodi:role="line"
+           id="tspan905-6"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Linux Libertine O';-inkscape-font-specification:'Linux Libertine O, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5"
+           x="138.29561"
+           y="40.441765">Volume</tspan></text>
+    </g>
+    <g
+       id="g1873"
+       transform="translate(-105.98936,-27.052904)">
+      <ellipse
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.499999;stroke-linecap:round"
+         id="path743-3-6-7-5-5"
+         cx="165.40096"
+         cy="38.989731"
+         rx="12.763941"
+         ry="10" />
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Linux Libertine O';-inkscape-font-specification:'Linux Libertine O, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:round"
+         x="165.1279"
+         y="39.878731"
+         id="text907-5-9"><tspan
+           sodipodi:role="line"
+           id="tspan905-6-3"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Linux Libertine O';-inkscape-font-specification:'Linux Libertine O, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5"
+           x="165.1279"
+           y="39.878731">Topography</tspan></text>
+    </g>
+    <g
+       id="g1883"
+       transform="translate(-95.224837,1.5726341)">
+      <circle
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.499999;stroke-linecap:round"
+         id="path743-3-6-7"
+         cx="115.25"
+         cy="37.124947"
+         r="10" />
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Linux Libertine O';-inkscape-font-specification:'Linux Libertine O, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:round"
+         x="115.11877"
+         y="37.99913"
+         id="text907-5-9-7"><tspan
+           sodipodi:role="line"
+           id="tspan905-6-3-4"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Linux Libertine O';-inkscape-font-specification:'Linux Libertine O, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5"
+           x="115.11877"
+           y="37.99913">Density</tspan></text>
+    </g>
+    <g
+       id="g1883-7"
+       transform="translate(-71.65,-0.30908207)">
+      <g
+         id="g2035">
+        <circle
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.499999;stroke-linecap:round"
+           id="path743-3-6-7-44"
+           cx="115.25"
+           cy="37.124947"
+           r="10" />
+        <text
+           xml:space="preserve"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Linux Libertine O';-inkscape-font-specification:'Linux Libertine O, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:round"
+           x="115.09949"
+           y="36.775463"
+           id="text907-5-9-7-3"><tspan
+             sodipodi:role="line"
+             id="tspan905-6-3-4-0"
+             style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Linux Libertine O';-inkscape-font-specification:'Linux Libertine O, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5"
+             x="115.09949"
+             y="36.775463">Avalanche</tspan><tspan
+             sodipodi:role="line"
+             style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Linux Libertine O';-inkscape-font-specification:'Linux Libertine O, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5"
+             x="115.09949"
+             y="42.067123"
+             id="tspan20724">Speed</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g1905"
+       transform="translate(14.407036,-41.604322)"
+       style="stroke-width:0.25;stroke-dasharray:0.75, 0.75;stroke-dashoffset:0">
+      <circle
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.25;stroke-linecap:round;stroke-dasharray:0.75, 0.75;stroke-dashoffset:0"
+         id="path743-3-6-7-5"
+         cx="15.742108"
+         cy="53.257519"
+         r="10" />
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:'Linux Libertine O';-inkscape-font-specification:'Linux Libertine O, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.25;stroke-linecap:round;stroke-dasharray:0.75, 0.75;stroke-dashoffset:0"
+         x="15.553372"
+         y="49.632725"
+         id="text907-5-9-7-5"><tspan
+           sodipodi:role="line"
+           id="tspan905-6-3-4-2"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:'Linux Libertine O';-inkscape-font-specification:'Linux Libertine O, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.25;stroke-dasharray:0.75, 0.75;stroke-dashoffset:0"
+           x="15.553372"
+           y="49.632725">Friction</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:'Linux Libertine O';-inkscape-font-specification:'Linux Libertine O, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.25;stroke-dasharray:0.75, 0.75;stroke-dashoffset:0"
+           x="15.553372"
+           y="54.04245"
+           id="tspan1866">parameters</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:'Linux Libertine O';-inkscape-font-specification:'Linux Libertine O, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.25;stroke-dasharray:0.75, 0.75;stroke-dashoffset:0"
+           x="15.553372"
+           y="58.452175"
+           id="tspan1868">(constant)</tspan></text>
+    </g>
+    <g
+       id="g1888"
+       transform="translate(-38.902821,-22.597517)">
+      <circle
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.499999;stroke-linecap:round"
+         id="path743-3-6"
+         cx="113.03569"
+         cy="74.146042"
+         r="10"
+         transform="translate(-30.532869,7.1975159)" />
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Linux Libertine O';-inkscape-font-specification:'Linux Libertine O, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:round"
+         x="112.95313"
+         y="75.509171"
+         id="text907-3-0"
+         transform="translate(-30.532869,7.1975159)"><tspan
+           sodipodi:role="line"
+           id="tspan905-2-6"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Linux Libertine O';-inkscape-font-specification:'Linux Libertine O, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5"
+           x="112.95313"
+           y="75.509171">P, Re, Fr</tspan></text>
+    </g>
+    <g
+       id="g1915"
+       transform="translate(-35.522844,-59.16911)">
+      <circle
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.499999;stroke-linecap:round"
+         id="path743-3-6-7-4"
+         cx="71.425171"
+         cy="166.53888"
+         r="10" />
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Linux Libertine O';-inkscape-font-specification:'Linux Libertine O, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:round"
+         x="71.217735"
+         y="167.99515"
+         id="text1701"><tspan
+           sodipodi:role="line"
+           id="tspan1699"
+           style="text-align:center;text-anchor:middle;stroke-width:0.5"
+           x="71.217735"
+           y="167.99515">depth</tspan></text>
+    </g>
+    <ellipse
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.499999;stroke-linecap:round"
+       id="path743-3-6-7-4-5"
+       cx="48.106293"
+       cy="134.21597"
+       rx="16.241871"
+       ry="5.5924721" />
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Linux Libertine O';-inkscape-font-specification:'Linux Libertine O, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:round"
+       x="47.724236"
+       y="135.44754"
+       id="text1701-0"><tspan
+         sodipodi:role="line"
+         id="tspan1699-4"
+         style="text-align:center;text-anchor:middle;stroke-width:0.5"
+         x="47.724236"
+         y="135.44754">Wave energy</tspan></text>
+    <g
+       id="g1910"
+       transform="translate(-35.522844,-59.16911)">
+      <circle
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.499999;stroke-linecap:round"
+         id="path743-3-6-7-5-7"
+         cx="98.250046"
+         cy="166.53888"
+         r="10" />
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Linux Libertine O';-inkscape-font-specification:'Linux Libertine O, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:round"
+         x="98.002396"
+         y="164.75876"
+         id="text1705"><tspan
+           sodipodi:role="line"
+           id="tspan1703"
+           style="text-align:center;text-anchor:middle;stroke-width:0.5"
+           x="98.002396"
+           y="164.75876">Wave</tspan><tspan
+           sodipodi:role="line"
+           style="text-align:center;text-anchor:middle;stroke-width:0.5"
+           x="98.002396"
+           y="170.05042"
+           id="tspan20726">speed</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Linux Libertine O';-inkscape-font-specification:'Linux Libertine O, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:round"
+         x="103.96368"
+         y="182.70151"
+         id="text1705-6"><tspan
+           sodipodi:role="line"
+           id="tspan1703-6"
+           style="text-align:center;text-anchor:middle;stroke-width:0.5"
+           x="103.96368"
+           y="182.70151" /></text>
+    </g>
+    <g
+       id="g15350"
+       transform="translate(7.2912572,-0.52392429)">
+      <rect
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:round"
+         id="rect1664"
+         width="60.404091"
+         height="10.109482"
+         x="9.1543522"
+         y="81.172264" />
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777px;font-family:'Linux Libertine O';-inkscape-font-specification:'Linux Libertine O, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.499999;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         x="39.333466"
+         y="85.016365"
+         id="text2189"><tspan
+           sodipodi:role="line"
+           id="tspan2187"
+           style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.5"
+           x="39.333466"
+           y="85.016365">Experiment : numerical simulation</tspan><tspan
+           sodipodi:role="line"
+           style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.5"
+           x="39.333466"
+           y="89.426079"
+           id="tspan15394">of impulse wave</tspan></text>
+    </g>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#Arrow2)"
+       d="M 35.902324,94.095003 V 90.648341"
+       id="path2276"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#Arrow2-8)"
+       d="m 62.727202,94.126193 -4e-6,-3.477854"
+       id="path2276-4"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#Arrow2-4)"
+       d="M 19.775163,77.308577 20.025162,48.69758"
+       id="path2276-2"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#Arrow2-8-3)"
+       d="M 70.969929,77.498458 70.719919,48.69758"
+       id="path2276-4-0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#Arrow2-8-3-9)"
+       d="m 59.411588,77.519185 7e-6,-55.582358"
+       id="path2276-4-0-90"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#Arrow2-8-3-6)"
+       d="M 43.6,77.348056 V 68.746041"
+       id="path2276-4-0-9"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777px;font-family:'Linux Libertine O';-inkscape-font-specification:'Linux Libertine O, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.499999;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       x="100.1219"
+       y="133.38666"
+       id="text3145"><tspan
+         sodipodi:role="line"
+         id="tspan3143"
+         style="stroke-width:0.5"
+         x="100.1219"
+         y="133.38666" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777px;font-family:'Linux Libertine O';-inkscape-font-specification:'Linux Libertine O, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#41bfaa;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       x="-121.90653"
+       y="21.12241"
+       id="text3149"
+       transform="rotate(-90)"><tspan
+         sodipodi:role="line"
+         id="tspan3147"
+         style="fill:#41bfaa;fill-opacity:1;stroke:none;stroke-width:0.5"
+         x="-121.90653"
+         y="21.12241">∫ (potential + kinetic) dA</tspan></text>
+  </g>
+</svg>

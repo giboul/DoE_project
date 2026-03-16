@@ -7,3 +7,4 @@ statsmodels
 ipykernel
 ipywidgets
 jinja2
+sympy

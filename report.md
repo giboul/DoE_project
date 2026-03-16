@@ -49,14 +49,27 @@ $$
 
 The curvature parameter is arbitrarily set to $\varsigma\doteq R/h_s$ where $R$ is the radius of the circle tangent to the topography.
 
-
 When working in a log-log framework, this product becomes a linear relationship :
 
 $$
 \log\eta_{\max} = \log\eta_0 + a\log\mathrm{Fr}_s+b\log(\cos\phi)+c\log \left(\tan\beta\right)+d\log\varsigma.
 $$
 
+For the sake of readability, we will write these terms as :
+
+$$
+L_X \doteq \frac{\log(X)-\log(X_\mathrm{mid})}{\log(X_\mathrm{max}) - \log(X_\mathrm{min})} \in [-1, 1]
+$$
+
+$$
+\Rightarrow L_\eta = L_0 + aL_F + bL_\phi + cL_\beta + dL_\varsigma
+$$
 
 > ![Alt text](media/bc.svg){#bc}
-> **Cross-sections of three avalanches (at the boundary condition) with different bottleneck angles $\beta$ but equal mean depths and areas.**
+> **Cross-sections of three avalanches (at the boundary condition) with different bottleneck angles $\beta$ but equal areas and mean depths.**
 
+# Causal diagram
+
+> TODO: refaire 
+
+> ![Alt text](media/causal_diagram.svg){#cd}
