@@ -1,11 +1,17 @@
 ---
 bilbiography: references.bib
+title: "A title"
+author: "An author"
+date: "`r format(Sys.time(), '%d %B %Y')`"
+output:
+  rmarkdown::pdf_document:
+    fig_caption: yes
 ---
 # Introduction
 
 An avalanche generates an *impulse wave* when it strikes a body of water such as a lake.
 This wave may damage areas near or downstream of the lake depending on its amplitude.
-Although it seems like a distant and excessively rare phenomenon, thousands of people have been killed in recent history \citep{Vajont,Palcacocha} and even the Léman's tsunami in the year 563 might have been caused by an impulse wave.
+Although it seems like a distant and excessively rare phenomenon, thousands of people have been killed in recent history ([@Vajont], [@Palcacocha]) and even the Léman's tsunami in the year 563 might have been caused by an impulse wave.
 
 Recent small-scale experiments have studied the effects of the avalanche's characteristics on the wave's shape. We hereby complement the recent studies by addressing the effect of topography.
 
@@ -17,7 +23,7 @@ This relation has led to unrealistic predictions in engineering.
 > ![Alt text](media/s1.png)
 > ![Alt text](media/s2.png)
 > ![Alt text](media/s3.png){#simulation}
-> **Numerical simulation of an impulse wave showing the free-surface elevation variation at times $t=1.1~\mathrm{s}$, $t=2.2~\mathrm{s}$ and $t=7.8~\mathrm{s}$.**
+> Numerical simulation of an impulse wave showing the free-surface elevation variation at times $t=1.1~\mathrm{s}$, $t=2.2~\mathrm{s}$ and $t=7.8~\mathrm{s}$.
 
 Given this failure, an alternate method was proposed to estimate the height of impulse waves, in the particular case of snow avalanches [@giboul].
 It assumes a sudden transformation of the snow into water, a supercritical flow (where advection is faster than diffusion) and relies on a numerical solver to account for a complex topography. This differs from the scaled experiments in the sense that they could only test basic topographies.
@@ -66,7 +72,7 @@ $$
 $$
 
 > ![Alt text](media/bc.svg){#bc}
-> **Cross-sections of three avalanches (at the boundary condition) with different bottleneck angles $\beta$ but equal areas and mean depths.**
+> Cross-sections of three avalanches (at the boundary condition) with different bottleneck angles $\beta$ but equal areas and mean depths.
 
 # Causal diagram
 
