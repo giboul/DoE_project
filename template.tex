@@ -1,0 +1,37 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage{pretty}
+
+\title{Accounting for topography in impulse waves}
+\author{\begin{tabular}{c c c}
+    Louise & Cayroche \\
+    Axel & Giboulot
+\end{tabular}}
+
+\coverhead{
+    \centering
+    \includegraphics[width=0.4\linewidth]{media/lhe.png}
+    \(\qquad\)
+    \includegraphics[width=0.4\linewidth]{media/streem.png}
+    %\includegraphics[width=0.3\linewidth]{media/EPFLlogo.png}
+}
+\covercontent{
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=\linewidth]{media/outburst.png}
+        \caption{Tourists fleeing an impulse wave caused by a glacier outburst.\\\href{https://www.youtube.com/watch?v=szKtDqmlsH4}{euronews}}
+        \label{fig:glof}
+    \end{figure}
+}
+
+\begin{document}
+
+\makecover
+
+$body$
+
+\bibliography{references}
+\label{sec:bibliographie}
+\addcontentsline{toc}{section}{\bibname}
+\thispagestyle{empty}
+
+\end{document}

@@ -1,0 +1,59 @@
+\usepackage{worldflags}
+\usepackage[justification=centering]{caption}
+\usepackage[justification=centering]{subcaption}
+\usepackage[inkscapelatex=true,inkscapearea=page]{svg}
+\usepackage{tikz,pgfplots}
+\usepackage{enumitem}
+\usepackage{fontspec}
+\setmainfont{Linux Libertine O}  %% text
+\setsansfont{Linux Libertine O}  %% text
+\usepackage{bm}
+\usepackage[detect-all,locale=FR,per-mode=symbol]{siunitx}
+\usepackage{booktabs}
+\usepackage{amsmath}
+
+\usepackage[dvipsnames]{xcolor}
+\usepackage{natbib}\bibliographystyle{authordate1}
+\usepackage[a4paper,hmargin=2cm,vmargin=3cm]{geometry}
+\usepackage[colorlinks=true,allcolors=MidnightBlue]{hyperref}
+\usepackage{float}
+
+\usepackage{pgfplots}
+\pgfplotsset{width=10cm,compat=1.9}
+
+\newcommand*{\course}[1]{\def\@course{#1}}
+\newcommand*{\coverhead}[1]{\def\@coverhead{#1}}
+\newcommand*{\covercontent}[1]{\def\@covercontent{#1}}
+
+\newcommand*{\makecover}{
+    \begin{titlepage}\centering
+
+        \@coverhead
+
+        \vfill
+
+        \rule{\textwidth}{0.4pt}\bigskip
+
+        {\huge\textbf{\@title}\par}\bigskip
+        \@author \bigskip
+
+        \rule{\textwidth}{0.4pt}
+
+        \vfill
+
+        \@covercontent
+
+        \vfill
+
+    \end{titlepage}
+
+        \clearpage
+        {\hypersetup{hidelinks}\tableofcontents}
+        \clearpage
+}
+
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
